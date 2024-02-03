@@ -26,4 +26,12 @@ body {
     flex-direction: column;
     padding: 10%;
 }
+.signature {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
