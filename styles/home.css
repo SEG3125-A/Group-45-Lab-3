@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-VariableFont_wght.woff2') format('woff2');
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    src: url(fonts/Montserrat-VariableFont_wght.woff2);
+    margin: 0;
+    padding: 0;
+    background-color: #f1eceb;
+}
+
+.home-stuff {
+    display: flex;
+    justify-content: center;
+}
+
+.home-stuff img {
+    width: 50%;
+    height: auto;
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+

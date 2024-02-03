@@ -1,0 +1,172 @@
+{
+    "products": {
+        "Fruits": [
+            {
+                "name":"Bananas",
+                "description": "6 Bananas",
+                "price": "$2.29",
+                "image":"pics/bananas.webp",
+                "vegetarian": "true",
+                "glutenFree": "true",
+                "lactoseFree": "true"
+            },
+            {
+                "name":"Grapes",
+                "description": "2lb Bags (907g)",
+                "price": "$5.99",
+                "image":"pics/grapes.webp",
+                "vegetarian": "true",
+                "glutenFree": "true",
+                "lactoseFree": "true"
+            },
+            {
+                "name":"Strawberries",
+                "description": "1lb (454g)",
+                "price": "$6.49",
+                "image":"pics/fraise.webp",
+                "vegetarian": "true",
+                "glutenFree": "true",
+                "lactoseFree": "true"
+            },
+            {
+                "name":"Mandarins",
+                "description": "2lb Bags (907g)",
+                "price": "$3.98",
+                "image":"pics/mandarins.webp",
+                "vegetarian": "true",
+                "glutenFree": "true",
+                "lactoseFree": "true"
+            }
+        ],
+        
+        "Vegetables": [
+            {
+                "name":"Broccoli",
+                "description": "1.5lb Bag (680g)",
+                "price": "$3.98",
+                "image":"pics/broccoli.webp",
+                "vegetarian": "true",
+                "glutenFree": "true",
+                "lactoseFree": "true"
+            },
+            {
+                "name":"Carrots",
+                "description": "1lb (454g)",
+                "price": "$6.49",
+                "image":"pics/carrots.webp",
+                "vegetarian": "true",
+                "glutenFree": "true",
+                "lactoseFree": "true"
+            },
+            {
+                "name":"Eggplant",
+                "description": "1lb (454g)",
+                "price": "$5.99",
+                "image":"pics/eggplant.webp",
+                "vegetarian": "true",
+                "glutenFree": "true",
+                "lactoseFree": "true"
+            },
+            {
+                "name":"Cauliflower",
+                "description": "Each",
+                "price": "$4.49",
+                "image":"pics/cauliflower.webp",
+                "vegetarian": "true",
+                "glutenFree": "true",
+                "lactoseFree": "true"
+            }
+        ],
+
+        "Dairy": [
+            {
+                "name":"Canadian Butter, Unsalted",
+                "description": "454g",
+                "price": "$7.99",
+                "image":"pics/butter.webp",
+                "vegetarian": "true",
+                "glutenFree": "true",
+                "lactoseFree": "false"
+            },
+            {
+                "name":"Canadian Butter, Lactose-Free",
+                "description": "454g",
+                "price": "$7.99",
+                "image":"pics/butter-no-lactose.webp",
+                "vegetarian": "true",
+                "glutenFree": "true",
+                "lactoseFree": "true"
+
+            }
+        ],
+
+
+        "Pantry": [
+            {
+                "name":"Rice",
+                "description": "700g",
+                "price": "$4.99",
+                "image":"pics/rice.webp",
+                "vegetarian": "true",
+                "glutenFree": "false",
+                "lactoseFree": "true"
+            },
+            {
+                "name":"Cookies",
+                "description": "288g",
+                "price": "$5.49",
+                "image":"pics/cookies.webp",
+                "vegetarian": "true",
+                "glutenFree": "false",
+                "lactoseFree": "true"
+            },
+            {
+                "name":"Cookies, Gluten-Free",
+                "description": "6.29",
+                "price": "$5.99",
+                "image":"pics/cookies-gluten-free.webp",
+                "vegetarian": "true",
+                "glutenFree": "true",
+                "lactoseFree": "true"
+            },
+            {
+                "name":"Granola, Gluten-Free",
+                "description": "Each",
+                "price": "$4.49",
+                "image":"pics/granola-gluten-free.webp",
+                "vegetarian": "true",
+                "glutenFree": "true",
+                "lactoseFree": "true"
+            }
+        ],
+
+        "Meats" : [
+            {
+                "name":"Chicken Thighs",
+                "description": "680g",
+                "price": "$13.99",
+                "image":"pics/chicken-thighs.webp",
+                "vegetarian": "false",
+                "glutenFree": "true",
+                "lactoseFree": "true"
+            },
+            {
+                "name":"Chicken Drumsticks",
+                "description": "10 Pack (~1kg)",
+                "price": "$7.50",
+                "image":"pics/chicken-drumsticks.webp",
+                "vegetarian": "false",
+                "glutenFree": "true",
+                "lactoseFree": "true"
+            },{
+                "name":"Tofu, Medium",
+                "description": "1lb (454g)",
+                "price": "$2.99",
+                "image":"pics/tofu.webp",
+                "vegetarian": "true",
+                "glutenFree": "true",
+                "lactoseFree": "true"
+            }
+        ]
+    }
+    }

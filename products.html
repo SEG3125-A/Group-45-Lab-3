@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<script>
+    var products = new Array();
+    var prices= new Array();
+    function addToCart(name, price) {
+        // Increment the cart count
+        products.push(name)
+        prices.push(price)
+        document.getElementById("cart-count").innerText = parseInt(document.getElementById("cart-count").innerText) + 1
+        localStorage.setItem("names", products);
+        localStorage.setItem("prices", prices);
+    }
+</script>
+<body>
+    <menu>
+        <a href="profile.html">
+            
+            <img src="icons/user.svg">
+            <p>Profile</p>
+            <line></line>
+        </a>
+
+        <a href="products.html">
+            <img src="icons/store-alt.svg">
+            <p>Produce</p>
+
+            <line></line>
+        </a>
+
+        <a href="cart.html">
+            <div id="cart">
+                <img src="icons/shopping-cart.svg">
+                <p id="cart-count">0</p>
+            </div> 
+            <p>Cart</p>
+
+            <line></line>
+        </a>
+    </menu>
+
+    <div class="slider-container">
+        <input type="range" id="rangeSlider" min="0" max="15" value="15" step="0.25">
+        <div class="slider-value" id="sliderValue">50</div>
+      </div>
+
+    <p id="current-diet"></p>
+    <div id="products">
+    </div>
+    <script src="scripts/products.js"></script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-VariableFont_wght.woff2') format('woff2');
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    src: url(fonts/Montserrat-VariableFont_wght.woff2);
+    margin: 0;
+    padding: 0;
+    background-color: #f1eceb;
+}
+
+
+/******** HEADER & NAV *************/
+
+menu {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+menu a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+menu a:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+menu p {
+    font-weight: bold;
+    color: #1e1e1e;
+}
+
+menu img {
+    width: 35px;
+    height: auto;
+}
+
+
+menu #cart {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 45px;
+}
+
+
+#cart-count {
+    color: #f1eceb;
+    background-color: #424242;
+    border-radius: 30%;
+    width: 20px;
+    margin-left: -10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#eating-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+#eating-info button, #bw {
+    height: 40px;
+    border: 2px solid #1e1e1e;
+    border-radius: 20px;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#eating-info button:hover, #bw:hover {
+    background-color: #f1eceb;
+    color: #1e1e1e;
+}
+
+#bw:active {
+    background-color: rgb(147, 207, 147);
+    border: 2px solid rgb(37, 106, 37) ;
+}
+
+/******************/
+
+#current-diet {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    margin-top: 20px; /* Adjust as needed for spacing */
+  }
+
+
+section h1 {
+    font-size: 3em;
+    display:block;
+    text-align: center;
+    padding: auto;
+}
+
+
+.articles-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    flex: 0 0 auto;
+    margin-right: 10px;
+    display: flex;
+    overflow-x: auto;
+}
+
+
+article {
+    background-color: #f1eceb;
+    padding: 5px;
+    margin: 30px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+article h2, img, p {
+    margin-bottom: 5px;
+}
+
+article #price {
+        font-weight: bold;
+        font-size:x-large;
+}
+
+article img {
+    width: 200px;
+    height: auto;
+}
+
+
+#add-cart {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#add-cart:hover {
+    background-color: #424242;
+}
+
+#see-more {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/********** USER INFO ***********/
+
+#user-info {
+    width: 60%;
+    margin: 30%;
+    margin-top: 10%;
+}
+
+select, input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.slider-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  input[type="range"] {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .slider-value {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+
